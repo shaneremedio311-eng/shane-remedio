@@ -1,0 +1,164 @@
+<mxfile host="65bd71144e">
+    <diagram id="z-Lpnh2XcODjb5e9rKdP" name="Page-1">
+        <mxGraphModel dx="532" dy="513" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="189" y="84" as="sourcePoint"/>
+                        <mxPoint x="196" y="84" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="147" y="84"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="&lt;b&gt;STUDENT TABLE&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="14" y="63" width="120" height="49" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;b&gt;COURSE&lt;/b&gt; &lt;b&gt;TABLE&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="203" y="63" width="120" height="49" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;b&gt;SECTION TABLE&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="399" y="63" width="120" height="49" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="352" y="84" as="sourcePoint"/>
+                        <mxPoint x="393" y="84" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="387" y="84"/>
+                            <mxPoint x="345" y="84"/>
+                            <mxPoint x="323" y="84"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="&lt;b&gt;SUBJECT&lt;/b&gt; &lt;b&gt;TABLE&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="581" y="63" width="120" height="49" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="525" y="84" as="sourcePoint"/>
+                        <mxPoint x="574" y="84" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="729" y="84" as="sourcePoint"/>
+                        <mxPoint x="743" y="84" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="701" y="84"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="&lt;b&gt;ENROLLMENT TABLE&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="749" y="63" width="120" height="49" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="STUDENT TABLE" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="21" y="168" width="200" height="227" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="&amp;nbsp;1.Sudent Number" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="20" vertex="1">
+                    <mxGeometry x="7" y="28" width="119" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="2.First name" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="20" vertex="1">
+                    <mxGeometry x="14" y="49" width="84" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="3.last name" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="20" vertex="1">
+                    <mxGeometry x="14" y="77" width="84" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="4.Course" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="20">
+                    <mxGeometry x="14" y="105" width="70" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="5.Sectin ID" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="20">
+                    <mxGeometry x="17.5" y="133" width="77" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="COURSE TABLE" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="323" y="171" width="200" height="224" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="1.Course ID" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="29">
+                    <mxGeometry x="18" y="39" width="84" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="2.Course" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="29">
+                    <mxGeometry x="25" y="74" width="70" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="curved=1;endArrow=classic;html=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="231" y="295" as="sourcePoint"/>
+                        <mxPoint x="315" y="238" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="281" y="295"/>
+                            <mxPoint x="259" y="273"/>
+                            <mxPoint x="231" y="245"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="SECTION TABLE" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="602" y="168" width="200" height="227" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="1.Section ID" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="31">
+                    <mxGeometry x="21" y="52" width="84" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="2.Section Name" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="31">
+                    <mxGeometry x="21" y="84" width="105" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="3.Room Number" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="31">
+                    <mxGeometry x="21" y="119" width="105" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="" style="curved=1;endArrow=classic;html=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="531" y="295" as="sourcePoint"/>
+                        <mxPoint x="595" y="238" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="581" y="295"/>
+                            <mxPoint x="531" y="245"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="33" value="SUBJECT TABLE" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="483" y="476" width="200" height="238" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="1.Subject ID&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2.Subject Name&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;3.Unit&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="33">
+                    <mxGeometry x="36" y="49" width="105" height="105" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="770" y="413" as="sourcePoint"/>
+                        <mxPoint x="707" y="581" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" value="ENROLLMENT TABLE" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="168" y="476" width="200" height="251" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="2.Student Number" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="35">
+                    <mxGeometry x="14" y="66" width="119" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="3.Course ID" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="35">
+                    <mxGeometry x="14" y="101" width="84" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="4.Section ID" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="35">
+                    <mxGeometry x="15" y="136" width="84" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="5.Subject ID" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="35">
+                    <mxGeometry x="24.5" y="171" width="84" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="6.School Year" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="35">
+                    <mxGeometry x="24.5" y="206" width="91" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="" style="curved=1;endArrow=classic;html=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="469" y="588" as="sourcePoint"/>
+                        <mxPoint x="378" y="560" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="456" y="582"/>
+                            <mxPoint x="406" y="532"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="50" value="1.Enrollment ID" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="178" y="507" width="105" height="35" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
